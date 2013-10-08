@@ -1,0 +1,5 @@
+#reddcarpet is the markdown processor that github uses
+#it it the library that will take our markdown to convert it to html
+markdown: redcarpet
+# write the url path that follows username.github.io
+baseurl: /large-data-website
