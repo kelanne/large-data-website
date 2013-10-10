@@ -92,6 +92,21 @@ ol {
 
 @media only screen and (min-width: 40em) {
   .nav li {
+    margin-left: 3.20em;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .nav li {
+    margin-left: 5em;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 70em) {
+  .nav li {
+    margin-left: 6.5em;
     display: inline-block;
   }
 }
