@@ -3,3 +3,4 @@
 markdown: redcarpet
 # write the url path that follows username.github.io
 baseurl: /large-data-website
+exclude: ['ia', 'visual-style', 'README.md']
