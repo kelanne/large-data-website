@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Scotch</title>
   <link href="css/general.css" rel="stylesheet">
-  <link href="cc/grid.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="index.html" rel="html">
   <link href="your-article.html" rel="html">
   <meta name="handheldfriendly" content="true">
@@ -12,44 +12,51 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
   <!-- Facebook -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Title of this page, same as <title>">
-  <meta property="og:url" content="http://fullurl.com/to-this/article.html">
-  <meta property="og:image" content="http://domain.com/img/thing.jpg">
+  <meta property="og:title" content="Scotch">
+  <meta property="og:url" content="http://kelanne/githib.io/large-data-website/index.html">
+  <meta property="og:image" content="http://kelanne/githib.io/large-data-website/index.html/img/scotch.jpg">
   <!-- image size 200x200 min, recommended 1500x1500 -->
-  <meta property="og:description" content="short description, same as meta description">
-  <meta property="og:site_name" content="name of website/company">
+  <meta property="og:description" content="Everything you need to know about scotch, including production methods and regions">
+  <meta property="og:site_name" content="kelanne/github.io/large-data-website">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary">
-  <meta property="twitttwitter:title" content="Title of this page, same as <title>">
-  <meta property="twitter:url" content="http://fullurl.com/to-this/article.html">
-  <meta property="twitter:image" content="http://domain.com/img/thing.jpg">
+  <meta property="twitttwitter:title" content="Scotch">
+  <meta property="twitter:url" content="http://kelanne/githib.io/large-data-website/index.html">
+  <meta property="twitter:image" content="http://kelanne/githib.io/large-data-website/index.html/img/thing.jpg">
   <!-- image size 120x120 min -->
-  <meta property="twitter:description" content="short description, same as meta description">
+  <meta property="twitter:description" content="Everything you need to know about scotch, including production methods and regions">
 
 </head>
 <body>
    <div>
-   		<a href="index.html" rel="home"><img src="img/scotch-logo.svg" alt="logo" class="logo" rel="home"></a>
+   		<a href="index.html"><img src="img/scotch-logo.svg" alt="logo" class="logo"></a>
    </div>
   <nav id="nav" class="nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" rel="home">Home</a></li>
         <li><a href="history.html">history</a></li>
-        <li><a href="your-article.html">Production</a></li>
-        <li><a href="#">Regions</a></li>
+        <li><a href="#">Production</a>
+          <ul>
+            <li><a href="single-cask.html">Single&nbsp;Cask</a></li> 
+            <li><a href="single-malt.html">Single&nbsp;Malt</a></li> 
+            <li><a href="single-grain.html">Single&nbsp;Grain</a></li> 
+            <li><a href="blended.html">Blended</a></li> 
+          </ul>
+        </li>
+        <li><a href="#">Regions</a>
+          <ul>
+              <li><a href="lowland.html">Lowland</a></li>
+              <li><a href="highland.html">Highland</a></li>
+              <li><a href="island.html">Island</a></li>
+              <li><a href="campbeltown.html">Campbeltown</a></li>
+              <li><a href="islay.html">Islay</a></li>
+              <li><a href="speyside.html">Speyside</a></li>
+            </ul>
+          </li>
         <li><a href="#">Distilleries</a></li>
       </ul>
   </nav>
-
-   <!--<ul>
-            <li><a href="lowland.html"></li>
-            <li><a href="highland.html"></li>
-            <li><a href="island.html"></li>
-            <li><a href="campbeltown.html"></li>
-            <li><a href="islay.html"></li>
-            <li><a href="speyside.html"></li>
-          </ul>-->
 
 {{content}}
 
