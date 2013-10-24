@@ -41,6 +41,7 @@ header {
 
 h1 {
   margin-left: 0.25em;
+  margin-top: 0.5em;
   color: #FDA605;
 }
 
@@ -112,6 +113,14 @@ ol {
 
 .nav li {
   display: inline;
+}
+
+.nav ul ul {
+  display: none;
+}
+
+.nav ul li:hover > ul {
+    display: block;
 }
 
 @media only screen and (min-width: 40em) {
@@ -213,6 +222,48 @@ hr {
   margin-bottom: 1em;
   /*float: right; for LATER*/
 }
+
+/* history section flex grids */
+.flex-img {
+  display: block;
+  width: 100%;
+}
+
+.grid {
+  overflow: hidden;
+}
+
+.unit {
+  background-color: #fff;
+  float: left;
+  width: 33.33333%;
+}
+
+.unit-2-3 {
+  width: 66.66667%; 
+}
+
+.unit-spacer {
+  padding: 1em;
+}
+
+@media only screen and (max-width: 38em) {
+  .unit {
+    float: none;
+    width: 100%;
+  }
+
+}
+
+.quote {
+  text-align: center;
+}
+
+.external-link {
+  margin: 0 2em;
+}
+
+/*searchbar */
 
 @media screen only and (min-width: 40em) {
   .searchbar {
