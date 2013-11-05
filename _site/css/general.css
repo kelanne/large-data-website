@@ -45,6 +45,45 @@ h1 {
   color: #FDA605;
 }
 
+@media only screen and (min-width: 60em) {
+  h1 {
+    margin-left: -1em;
+  }
+}
+
+h2 {
+  font: normal 120%/1.5 sans-serif;
+  color: #FDA605;
+  font-weight: bold;
+
+  margin: 0;
+}
+
+h3 {
+  font: normal 100%/1.5 sans-serif;
+  font-weight: bold;
+
+  margin: 1em 0 0 0;
+}
+
+h4 {
+  font: normal 80%/1.5 sans-serif;
+
+  margin: 0;
+}
+
+@media only screen and (min-width: 40em) {
+  h1 {
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  h1 {
+    margin-left: 3.5em;
+  }
+}
+
 /*ul,
 ol {
   margin: 1.5rem 0;
@@ -241,6 +280,95 @@ hr {
   margin: 1.5em 0 20px 0;
 }
 
+/* region pages */
+.info-p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 40em) {
+  .info-p {
+    margin: 0 1em;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  .unit-m-1 p {
+    margin-left: 3em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .unit-l-3-4 p {
+    margin-left: 4em;
+    padding-right: 1em;
+  }
+}
+
+.external-link-2 a {
+  margin-left: 0.25em;
+}
+
+@media only screen and (min-width: 40em) {
+  .external-link-2 a {
+    margin-left: 2.25em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .external-link-2 a {
+    margin-left: 3.25em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .info-p {
+    margin: 0;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .unit-l-3-4 {
+    padding-left: 3em;
+  }
+}
+
+aside {
+  margin: 0;
+  padding-right: 3em;
+  float: left;
+}
+
+aside p {
+  font: normal 90%/1.5 sans-serif;
+  margin: 0;
+} 
+
+.sidebar-img {
+  margin-right: 3em;
+  width: 85%;
+}
+
+.region-img {
+  display: block;
+  margin: 1.5em 0 1.5em 1em;
+  width: 85%;
+}
+
+@media only screen and (min-width: 40em) {
+  .region-img {
+    margin: 1em 0 1em 3em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .region-img {
+    margin: 1em 0 1em 4em;
+  }
+}
+
+/* bottom area */
+
 .top-link {
   margin: 1.5em 45% 0 45%;
 
@@ -253,8 +381,15 @@ hr {
   color: #333333;
   font-style: italic;
   margin-left: 1.75em;
+  margin-left: 0.75em;
   margin-bottom: 1em;
   /*float: right; for LATER*/
+}
+
+@media only screen and (min-width: 40em) {
+  .searchbar {
+    text-align: center;
+  }
 }
 
 .flex-img {
@@ -267,7 +402,21 @@ hr {
 }
 
 .external-link {
-  margin: 0 2em;
+  margin: 0 0.75em;
+}
+
+@media only screen and (min-width: 38em) {
+  .external-link {
+    display: none;
+  }
+}
+
+.external-link-1 {
+  margin: 0;
+}
+
+.external-link-2 {
+  margin: 0 0.75em;
 }
 
 /*searchbar */
