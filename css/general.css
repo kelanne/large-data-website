@@ -162,7 +162,8 @@ ol {
   text-align: left;
 }
 
-.nav ul li:hover > ul {
+.nav ul li:hover > ul,
+.nav ul li:focus > ul {
     display: block;
 }
 
@@ -177,7 +178,8 @@ ol {
     margin:0 .5em;
   }
 
-  .nav ul li:hover > ul {
+  .nav ul li:hover > ul,
+  .nav ul li:focus > ul {
     position: absolute;
   }
 

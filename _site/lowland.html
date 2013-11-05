@@ -28,11 +28,19 @@
   <meta property="twitter:description" content="Everything you need to know about scotch, including production methods and regions">
 
 </head>
-<body>
-   <div>
+<body id="top">
+
+  <ul class="skiplinks">
+      <li><a href="#main">Skip to primary content</a></li>
+      <li><a href="#complementary">skip to secondary</a></li>
+      <li><a href="#navigation">Skip to navigation</a></li>
+    
+  </ul>
+
+   <div role="banner">
    		<a href="index.html"><img src="img/scotch-logo.svg" alt="logo" class="logo"></a>
    </div>
-  <nav id="nav" class="nav">
+  <nav role="navigation "id="navigation" class="nav">
       <ul>
         <li><a href="index.html" rel="home">Home</a></li>
         <li><a href="history.html">history</a></li>
@@ -67,7 +75,7 @@
 
 	<h1>Lowlands</h1>
 
-	<div class=""> <!-- add 'unit' class -->
+	<div role="main" class=""> <!-- add 'unit' class -->
 		<div class="info-p unit-m-1 unit-l-3-4">
 			<p>The Lowlands produces gentle, light whiskies, often very dry and devoid of peat. Lowland whiskies are commonly referenced as feminine drams, the <i>Lowland Ladies</i>. Most of the whisky regions of Scotland, and indeed the world, there can be some crossover. For example, it is quite possible to produce a heavily peated whisky outside of Islay or the Highlands, simply distilling peated barley can facilitate that.</p> <br>
 		</div>
@@ -76,7 +84,7 @@
 					<a href="http://www.masterofmalt.com/region/lowland-whisky/">read more</a>
 		</div>
 
-		<div class="info-p unit-s-hidden unit-m-1 unit-l-3-4">
+		<div role="complementary" class="info-p unit-s-hidden unit-m-1 unit-l-3-4">
 			<p>The Lowlands is different in this respect, where the method of production differs; Lowland whiskies are triple distilled. Though this does occur elsewhere - of course, Springbank triple distils Hazelburn - it is best known and most commonly practised further south. The region is bordered by the Highland Line to the north and sits neatly atop England. There is no peat used and there is not a great deal of local peat. There is little salinity in the whisky, for the operating Lowland distilleries are all sited inland. Auchentoshan is quite possibly the best known. The Rosebank and St Magdalene distilleries have produced delightful whiskies.</p> <br>
 
 		<div class="external-link-2 unit-s-hidden">
@@ -92,7 +100,7 @@
 	</div>
 
 	<div>
-	<aside class="unit-s-hidden unit-m-hidden unit-l-1-4">
+	<aside role="complementary" id="complentary" class="unit-s-hidden unit-m-hidden unit-l-1-4">
 		<h2>Lowland Single Malts</h2>
 			<h3>Scotland's whisky- producing regions</h3>
 				<h4>From Wikipedia, the free encyclopedia</h4> <br>
@@ -128,7 +136,7 @@
     </div> -->
 
   <footer class="footer">
-    <p class="copyright">© 2013 Kelly Seay</p>
+    <p role="contentinfo" class="copyright">© 2013 Kelly Seay</p>
   </footer>
 
 </body>

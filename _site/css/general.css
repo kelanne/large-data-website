@@ -162,7 +162,8 @@ ol {
   text-align: left;
 }
 
-.nav ul li:hover > ul {
+.nav ul li:hover > ul,
+.nav ul li:focus > ul {
     display: block;
 }
 
@@ -177,7 +178,8 @@ ol {
     margin:0 .5em;
   }
 
-  .nav ul li:hover > ul {
+  .nav ul li:hover > ul,
+  .nav ul li:focus > ul {
     position: absolute;
   }
 
@@ -450,6 +452,51 @@ aside p {
   padding: 0 .75em .5em 1em;
   margin-top: .5em;
   text-align:  left;
+}
+
+/* skiplinks section */
+.skiplinks {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 3000;
+
+  font-size: 1.25em;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+  padding: 0.75em 1em;
+  position: absolute;
+  top: -10em;
+
+  background-color: #000;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.skiplinks a:focus {
+  top: 0;
+}
+
+a,
+a:link,
+a:visited {
+  outline: none;
+}
+
+a:hover,
+a:active {
+  outline: none;
+}
+
+a:focus /* must have outline*/ {
+  outline: 3px solid #000;
 }
 
 
