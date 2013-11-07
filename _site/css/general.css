@@ -85,6 +85,19 @@ h4 {
   }
 }
 
+.back {
+  color: #333333;
+  margin-top: 1em;
+
+  font: italic; 80%/1.5 sans-serif;
+}
+
+@media only screen and (min-width: 40em) {
+  .back {
+    margin: 0 0 0 3.25em;
+  }
+}
+
 .section-divider {
   margin-top: 2em;
   padding: 0;
@@ -430,6 +443,17 @@ aside p {
   margin: 0 0.75em;
 }
 
+@media only screen and (min-width: 40em) {
+  .external-link-2 {
+    margin-left: 3.25em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .external-link-2 {
+    margin-left: 3.25em;
+  }
+}
 .external-link-2 a {
   margin-left: 0.25em;
 }
