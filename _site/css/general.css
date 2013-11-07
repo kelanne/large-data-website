@@ -105,6 +105,18 @@ h4 {
   float: left;
 }
 
+@media only screen and (min-width: 40em) {
+  .section-divider {
+    margin-left: 3em;
+  }
+}
+
+@media only screen and (min-width: 56em) {
+  .section-divider {
+    margin-left: 5em;
+  }
+}
+
 /*ul,
 ol {
   margin: 1.5rem 0;
@@ -260,7 +272,6 @@ ol {
 }
 
 
-/*
 .mini-nav {
   list-style-type: none;
   margin: 0;
@@ -277,15 +288,25 @@ ol {
 
 @media only screen and (min-width: 40em) {
   .mini-nav {
-    display: inline-block;
+    margin-left: .25em;
   }
 }
+
+@media only screen and (min-width: 60em) {
+  .mini-nav {
+    display: inline-block;
+    margin-left: 4em;
+
+    float: left;  
+  }
+}
+
 
 @media only screen and (min-width: 65em) {
   .billboard {
     height: 25em;
   }
-}*/
+}
 
 /* MAIN INFO SECTION --- HOMEPAGE BLURB */
 
