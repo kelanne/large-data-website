@@ -1,0 +1,40 @@
+html {
+  margin: 0;
+  padding: 0;
+  font: normal 100%/1.5 sans-serif;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+body {
+	background-image: url(../img/scotch.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	min-height: 100%;
+}
+
+h1 {
+  margin-left: 0.25em;
+  margin-top: 0.5em;
+  color: #FDA605;
+}
+
+p {
+	margin-left: 0.5em;
+}
+
+@media only screen and (min-width: 60em) {
+  h1 {
+    margin-left: -1em;
+  }
+}
+
+@media only screen and (min-width: 40em); {
+	body {
+		background-position: 50% 5%;
+	}
+}
+
+
+
