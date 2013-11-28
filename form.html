@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<link href="general.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Mystery Book Club</h1>
+<form class="form">
+
+	<div>
+		<label for="name">Name
+			<strong class="error">Please fill in your name</strong>
+		</label required>
+		<input type="text" id="name" class="input-text input-error">
+	</div>
+
+	<div>
+		<label for="email">Email</label>
+		<input type="email" id="email" class="input-text">
+	</div>
+
+	<div>
+		<label for="phone">Phone Number</label>
+		<input type="tel" id="phone" class="input-text" maxlength="20" minlength="10">
+	</div>
+
+	<div>
+		<label for="address">Address</label required>
+		<input type="text" id="address" class="input-text">
+	</div>
+
+	<div>
+		<label for="city">City</label required>
+		<input type="text" id="city" class="input-text">
+	</div>
+
+	<div>
+		<label for="province">Province</label>
+		<select id="province">
+		<option>select</option>
+		<option>British Columbia</option>
+		<option>Saskatchewan</option>
+		<option>Manitoba</option>
+		<option>Ontario</option>
+		<option>Quebec</option>
+		<option>Newfoundland</option>
+		<option>Newbrunswick</option>
+		<option>Nova Scotia</option>
+		<option>Prince Edward Island</option>
+		<option>Nunavut</option>
+		<option>Yukon</option>
+		</select>
+	</div>
+
+	<div>
+		<label for="meet">What time would be best to meet?</label required>
+		<input type="time" id="meet" class="input-text">
+	</div>
+
+	<div>
+		<label for="number">How many books have you read</label>
+		<input type="number" id="number" pattern="[0=9*" min="1" max="130">
+	</div>
+
+	<div>
+		<input type="Checkbox" id="attend" checked>
+		<label for="attend">are you attending?</label>
+	</div>
+
+	<fieldset>
+			<legend>How much do you love this genre?</legend>
+
+			<input type="radio" id="extremepoor" name="satisfaction">
+			<label for="extreme-poor">not at all</label>
+
+			<input type="radio" id="disatisfied" name="satisfaction">
+			<label for="disatisfied">not much</label>
+
+			<input type="radio" id="neutral" name="satisfaction">
+			<label for="neutral">meh</label>
+
+			<input type="radio" id="satisfied" name="satisfaction">
+			<label for="satisfied">it's good</label>
+
+			<input type="radio" id="Extremesatisfied" name="satisfaction">
+			<label for="extreme-satisfied">much love</label>
+	</fieldset>
+
+	<div>
+		<label for="why">What did you love about this book?</label>
+		<textarea for="why" class="input-text"></textarea>
+	</div>
+
+	<button type="submit">send</button>
+	
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
