@@ -279,6 +279,19 @@ ol {
 	width: 100%;
 }
 
+.back-button {
+  margin-top: 20px;
+}
+
+.production-centre {
+
+}
+
+@media only screen and (min-width: 40em) {
+  .production-centre {
+    text-align: centre;
+  }
+}
 
 .mini-nav {
   list-style-type: none;
@@ -294,16 +307,23 @@ ol {
   display: block;
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 31em) {
   .mini-nav {
-    margin-left: .25em;
+    margin-left: 5.25em;
+  }
+}
+@media only screen and (min-width: 38em) {
+  .mini-nav {
+    text-align: center;
+    margin-left: 0;
   }
 }
 
 @media only screen and (min-width: 60em) {
   .mini-nav {
     display: inline-block;
-    margin-left: 4em;
+    margin-left: 0;
+    padding-left: 0;
 
     float: left;  
   }
@@ -420,6 +440,9 @@ aside p {
   }
 }
 
+.distillery-img {
+
+}
 /* bottom area */
 
 .top-link {
