@@ -125,17 +125,6 @@ h4 {
   }
 }
 
-/*ul,
-ol {
-  margin: 1.5rem 0;
-  overflow: hidden;
-}
-@media only screen and (min-width: 65em) {
-  ul ol {
-    overflow: visible;
-  }
-}*/
-
 .figure {
   margin: 1em;
   display: inline-block;
@@ -175,7 +164,6 @@ ol {
   width: 100%;
 
   display: inline-block;
-  /*font-style: small-caps;*/
 }
 
 .nav > ul {
@@ -459,7 +447,6 @@ aside p {
   margin-left: 1.75em;
   margin-left: 0.75em;
   margin-bottom: 1em;
-  /*float: right; for LATER*/
 }
 
 @media only screen and (min-width: 40em) {
@@ -520,19 +507,6 @@ aside p {
   .external-link-2 a {
     margin-left: 3.25em;
   }
-}
-
-/*searchbar */
-
-@media screen only and (min-width: 40em) {
-  .searchbar {
-    float: right;
-  }
-}
-
-.searchbar p {
-  margin-left: 0;
-  margin-bottom: 1em;
 }
 
 /* FOOTER SECTION */
